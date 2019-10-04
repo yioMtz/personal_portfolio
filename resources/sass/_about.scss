@@ -1,0 +1,17 @@
+#about {
+	background-color: $white;
+	.image {
+		margin: auto;
+		width: 300px;
+	}
+	.image.is-128x128 {
+		width: 100px;
+		margin: auto;
+	}
+	.container {
+		padding-top: 3rem;
+		padding-bottom: 1.5rem;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+}

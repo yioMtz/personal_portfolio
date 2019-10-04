@@ -1,0 +1,16 @@
+#projects {
+	.column {
+		margin-right: 1rem;
+		margin-left: 1rem;
+		margin-top: 1rem;
+	}
+	& > .container {
+		padding-top: 3rem;
+		padding-bottom: 1.5rem;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+		& > h1 {
+			margin-top: 1.5rem;
+		}
+	}
+}

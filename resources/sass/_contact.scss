@@ -1,0 +1,43 @@
+#contact {
+	background-color: $white;
+	padding-top: 65px;
+	.contact-title {
+		background-color: $base-color;
+		font-size: 3rem;
+		text-align: center;
+		border-radius: 10px;
+		@media only screen and (max-width: 768px) {
+			font-size: 1.5rem;
+		}
+	}
+	#contact-form {
+		background-color: rgba(3, 22, 45, 0.55);
+		padding: 30px;
+		border: none;
+		border-radius: 10px;
+		@media only screen and (min-width: 1248px) {
+			max-width: 75%;
+			margin: auto;
+		}
+	}
+	#contact-form-btns {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		@media only screen and (max-width: 768px) {
+			flex-direction: row;
+		}
+		@media only screen and (max-width: 600px) {
+			flex-direction: column;
+		}
+		& > a {
+			width: 150px;
+			margin-bottom: 10px;
+			margin-top: 10px;
+			& > i {
+				margin-right: 5px;
+			}
+		}
+	}
+}

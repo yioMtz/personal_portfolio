@@ -1,0 +1,20 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito|Open+Sans&display=swap');
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+// Variables
+@import 'variables';
+@import 'utils';
+
+// Bulma
+@import '../../node_modules/bulma/bulma.sass';
+
+//custom override
+@import 'welcome_section';
+@import 'navbar';
+@import 'card';
+@import 'projects';
+@import 'about';
+@import 'contact';
+@import 'footer';
+@import 'custom';

@@ -1,0 +1,42 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background-color: $white;
+	font-family: $font-family-sans-serif;
+}
+
+.section-headline {
+	font-size: 3rem;
+	text-align: center;
+	color: $hot-pink;
+	@media only screen and (max-width: 768px) {
+		font-size: 1.5rem;
+	}
+}
+.section-subTitle {
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-size: 2rem;
+	color: #00d1b2;
+}
+.fa-linkedin-in {
+	color: #0077b5;
+}
+.button .fa-linkedin-in {
+	color: $white;
+}
+.fab,
+.fas {
+	margin-right: 5px;
+}
+
+#wrapper {
+	background: $base-color;
+}
+
+.subtitle {
+	color: $hot-pink;
+}
